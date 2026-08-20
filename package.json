@@ -1,7 +1,7 @@
 {
   "name": "wayline-browser",
-  "version": "1.0.0",
-  "description": "Wayline — a custom, self-hosted browser console with tabs, bookmarks, history, and a built-in embed proxy.",
+  "version": "2.0.0",
+  "description": "Wayline — an enhanced custom, self-hosted browser console with tabs, bookmarks, history, smart embed proxy, and favicons.",
   "main": "server.js",
   "type": "commonjs",
   "scripts": {
