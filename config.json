@@ -1,0 +1,35 @@
+{
+  "appName": "Wayline",
+  "tagline": "One console. Every waypoint.",
+  "port": 4173,
+  "defaultSearchEngine": "duckduckgo",
+  "searchEngines": {
+    "duckduckgo": "https://duckduckgo.com/html/?q=%s",
+    "google": "https://www.google.com/search?q=%s",
+    "bing": "https://www.bing.com/search?q=%s"
+  },
+  "homeLinks": [
+    { "label": "DuckDuckGo", "url": "https://duckduckgo.com" },
+    { "label": "Wikipedia", "url": "https://en.wikipedia.org" },
+    { "label": "MDN Docs", "url": "https://developer.mozilla.org" },
+    { "label": "Hacker News", "url": "https://news.ycombinator.com" },
+    { "label": "GitHub", "url": "https://github.com" },
+    { "label": "Anthropic", "url": "https://www.anthropic.com" }
+  ],
+  "theme": {
+    "background": "#1F1B24",
+    "panel": "#2A2430",
+    "panelRaised": "#332C3B",
+    "accent": "#E8A33D",
+    "accentSecondary": "#4FA9A0",
+    "textPrimary": "#EDE7DE",
+    "textMuted": "#9A8FA3",
+    "danger": "#D1585B",
+    "displayFont": "'Space Mono', monospace",
+    "bodyFont": "'Inter', system-ui, sans-serif"
+  },
+  "proxy": {
+    "enabled": true,
+    "userAgent": "Mozilla/5.0 (compatible; WaylineBrowser/1.0)"
+  }
+}
