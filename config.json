@@ -6,7 +6,9 @@
   "searchEngines": {
     "duckduckgo": "https://duckduckgo.com/html/?q=%s",
     "google": "https://www.google.com/search?q=%s",
-    "bing": "https://www.bing.com/search?q=%s"
+    "bing": "https://www.bing.com/search?q=%s",
+    "brave": "https://search.brave.com/search?q=%s",
+    "ecosia": "https://www.ecosia.org/search?q=%s"
   },
   "homeLinks": [
     { "label": "DuckDuckGo", "url": "https://duckduckgo.com" },
@@ -30,6 +32,6 @@
   },
   "proxy": {
     "enabled": true,
-    "userAgent": "Mozilla/5.0 (compatible; WaylineBrowser/1.0)"
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Wayline/2.0"
   }
 }
